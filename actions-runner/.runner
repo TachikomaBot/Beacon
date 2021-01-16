@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 21,
+  "agentName": "Beacon-runner",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/zY4ofY2DiwGAv4uQqHCxIElCHElG48mBnpL8yZxgiacFfRK3yM/",
+  "gitHubUrl": "https://github.com/UAlberta-CMPUT401/CS-and-Law",
+  "workFolder": "Beacon-work"
+}

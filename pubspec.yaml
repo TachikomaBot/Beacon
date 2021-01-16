@@ -1,0 +1,99 @@
+name: Beacon
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+
+  # Permission handler
+  permission_handler: ^4.4.0+hotfix.1
+
+  # Http requests
+  http: ^0.12.0+4
+
+  # Web Auth
+  flutter_web_auth: ^0.1.3
+
+  # Uni Links (for ios 8-10 oauth response)
+  uni_links: ^0.2.0
+
+  # Path Provider
+  path_provider: ^1.6.0
+  mockito: ^4.1.1
+
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+  # Camera (modified)
+  camera:
+    path: ./custom/camera-0.5.7+4
+
+  # Video Player
+  video_player: ^0.10.8+1
+
+  # Gallery Saver (will be removed)
+  gallery_saver: ^1.0.7
+
+  # Geolocation
+  geolocator: ^5.3.0
+
+  # Vibration
+  vibration: ^1.2.4
+
+  # Google Sign In
+  google_sign_in: ^4.1.4
+
+  # File Picker
+  file_picker: ^1.4.3+2
+
+  # Device Info:
+  # This is for detecting the model of the device the app is running on
+  device_info: ^0.4.1+5
+
+  shared_preferences: ^0.5.6+3
+
+  # Flutter sign in button design package (how nice!)
+  flutter_auth_buttons: ^0.6.0
+
+  googleapis_auth: ^0.2.11+1
+  googleapis: ^0.54.0
+
+  # Notifications
+  flutter_local_notifications: ^1.2.1
+
+  # For declaring environment variables (will be used for twilio)
+  flutter_dotenv: ^2.1.0
+
+  # For internet connection
+  connectivity: ^0.4.8+2
+
+  # For running task on the isolate
+  worker_manager: 
+  
+  email_validator: ^1.0.0
+
+  # Local Storage for data persistence
+  localstorage: ^3.0.1+4
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  path: ^1.6.4
+  io: ^0.3.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/login_logo.png
+    - .env
+    - assets/police_interactions.png

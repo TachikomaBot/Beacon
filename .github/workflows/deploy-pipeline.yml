@@ -1,0 +1,17 @@
+name: Deployment Pipeline
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Beacon Deployment Pipeline
+    runs-on: self-hosted
+    steps:
+      - name: Pull Repository
+        uses: actions/checkout@v2
+      - name: Install Packages
+        run: flutter pub get
+      - name: Build APK for Android
+        run: flutter build apk

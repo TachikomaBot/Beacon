@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "UAlberta-CMPUT401/CS-and-Law",
+  "pipelineDirectory": "CS-and-Law",
+  "workspaceDirectory": "CS-and-Law/CS-and-Law",
+  "repositories": {
+    "UAlberta-CMPUT401/CS-and-Law": {
+      "repositoryPath": "CS-and-Law/CS-and-Law",
+      "lastRunOn": "02/23/2020 19:50:01 -07:00"
+    }
+  },
+  "lastRunOn": "04/03/2020 23:25:50 -06:00"
+}

@@ -1,0 +1,25 @@
+name: Build Pipeline
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Beacon Build Pipeline
+    runs-on: self-hosted
+    steps:
+      - name: Pull Repository
+        uses: actions/checkout@v2
+      - name: Run Auth Test
+        run: flutter test test/auth_test.dart
+      - name: Run Contact Test
+        run: flutter test test/contact_test.dart
+      - name: Run Transmit Test
+        run: flutter test test/transmit_test.dart
+      - name: Run Sms Test
+        run: flutter test test/transmit_test.dart
+      - name: Run test for Camera (modified plugin) 
+        run: flutter test custom/camera-0.5.7+4/test/camera_test.dart
+      - name: Run test for Camera Android Support (modified plugin)
+        run: flutter test custom/camera-0.5.7+4/test/support_android/support_android_test.dart 
